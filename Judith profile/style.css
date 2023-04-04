@@ -1,0 +1,133 @@
+
+frame {
+  border-top: 0px;
+  border-bottom: 0px;
+}
+body {
+  
+  margin: 0;
+  margin-block-start: 0px;
+  background: #b0997d;
+  color: #252627;
+  font-family: 'Lora', serif;
+  font-size: 19px;
+  font-weight: lighter;
+}
+
+h1 {
+  color:  #695f64 ;
+  font-size: 32px;
+  font-weight: 900;
+}
+h2 {
+  color:  #695f64;
+  font-size: 20px;
+  font-weight: lighter;
+  font-weight: 500;
+}
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #b4b1ac;
+  font-weight: 600;
+  font-size: 16px;
+}
+a:hover {
+  color: black;
+}
+
+
+/* La partie responsive */
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  
+  .container {
+    width: 300px;
+  }
+}
+
+
+.card-white {
+  background-color: #daccbf;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgb(105, 95, 100,0.5);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+.btn-blue {
+  background-color: #695f64 ;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.btn-blue:hover {
+  background-color:  #b4b1ac;
+  color: white;
+}
+
+/*css des resaux*/
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color:  #b0997d ;
+}
+.list-inline i:hover {
+  color:   #695f64 ;
+}
+
+/* Forme images */
+.img-circle {
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px 7px rgb(105, 95, 100,0.5);  /*K*/
+}
+
+img.rounded-corners {
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  .img-circle:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+  }
+
+
+img.rounded-corners:hover{ /*K*/
+  transform: scale(1.01);
+}
+h1, h2, h3 {  /*K*/
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Ajustements */
+#introduction p {
+  margin-bottom: 40px;
+}
+
+
+
+
